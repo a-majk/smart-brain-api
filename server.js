@@ -10,7 +10,7 @@ const profile = require('./controllers/profile');
 
 const db = knex({
     client: 'pg',
-    connection: 'postgres://smart_brain_db_c95p_user:1zqQUXaEHAtaktMQHt1C2iGyzxeoJOls@dpg-cf2rdrp4reb5o46nd72g-a.frankfurt-postgres.render.com/smart_brain_db_c95p'
+    connection: 'postgres://smart_brain_db_c95p_user:1zqQUXaEHAtaktMQHt1C2iGyzxeoJOls@dpg-cf2rdrp4reb5o46nd72g-a/smart_brain_db_c95p'
 });
 
 const app = express();
